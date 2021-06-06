@@ -4,7 +4,8 @@
   "description": "JavaScript version of the algorithms in https://algs4.cs.princeton.edu/home/",
   "main": "src/index.js",
   "scripts": {
-    "test": "test"
+    "test": "jest",
+    "test-watch": "jest --watch"
   },
   "repository": {
     "type": "git",
