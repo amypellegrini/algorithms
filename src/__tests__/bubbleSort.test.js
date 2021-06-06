@@ -22,7 +22,7 @@ describe("bubbleSort", () => {
       [5, 3, 2, 1, 0],
       [0, 1, 2, 3, 5],
     ],
-  ])("should sort numbers from lowest to greatest", (input, output) => {
+  ])("should sort numbers from least to greatest", (input, output) => {
     expect(bubbleSort(input)).toEqual(output);
   });
 });
