@@ -1,6 +1,4 @@
 function merge(arr1, arr2) {
-  // console.log(arr2);
-
   const sorted = [];
   let arr1Pointer = 0;
   let arr2Pointer = 0;
