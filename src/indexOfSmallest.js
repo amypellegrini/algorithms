@@ -5,7 +5,7 @@
  * index:
  *
  *  - Worst: O(n)
- *  - Best: O(n - k)
+ *  - Best: O(n - k) when k > 0
  *
  * @param {number[]} array
  * @param {number} startIdx
